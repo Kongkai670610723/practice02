@@ -1,4 +1,4 @@
-//ItemCard.tsx
+//D:\workspace\practice02\src\components\ItemCard.tsx
 import { Card, Group, Badge, ActionIcon, Text } from "@mantine/core";
 import { IconTrash } from "@tabler/icons-react";
 

@@ -1,4 +1,4 @@
-//Header.tsx
+//D:\workspace\practice02\src\components\Header.tsx
 import {
   Burger,
   Text,

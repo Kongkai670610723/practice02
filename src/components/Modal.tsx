@@ -1,4 +1,4 @@
-//Modal.tsx
+//D:\workspace\practice02\src\components\Modal.tsx
 import { useState } from "react";
 import {
   Modal,
