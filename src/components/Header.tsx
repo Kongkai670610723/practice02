@@ -8,6 +8,7 @@ import {
 } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
 import { IconSun, IconMoon } from "@tabler/icons-react";
+import { IconCash } from "@tabler/icons-react";
 
 interface HeaderComponentProps {
   opened: boolean;
@@ -34,6 +35,19 @@ export default function HeaderComponent({
             aria-label="Toggle navigation"
           />
         )}
+
+        {/*เพิ่ม Iconcash*/}
+        <ActionIcon
+          variant="filled"
+          color={isDark ? "yellow" : "blue"}
+          onClick={toggleColorScheme}
+          size="lg"
+          aria-label={isDark ? "Light mode" : "Dark mode"}
+        >
+          {isDark ? <IconCash aria-label="tracker icon" size={20} /> : <IconCash aria-label="tracker icon" size={20} />}
+        </ActionIcon>
+        
+
         <Text
           size="xl"
           fw={900}
