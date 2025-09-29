@@ -71,3 +71,52 @@ export default function HeaderComponent({
     </Group>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*2) src/components/Header.tsx
+
+โค้ดใช้งานได้แล้ว สลับธีม/แสดงชื่อครบ
+ถ้าอยาก “สื่อการเงิน” ให้ชัด (ตาม rubric พูดถึงไอคอนการเงิน) คุณ อาจ เติม IconCash หน้าคำว่า TRACKER-APP (ถ้าไม่อยากแตะก็ผ่าน rubric ได้อยู่แล้วนะ)
+
+// เพิ่มแค่บรรทัด import นี้ถ้าต้องการ
+// import { IconCash } from "@tabler/icons-react";
+
+// แล้วในส่วน JSX:
+//
+// <Group>
+//   {isMobile && (/* ...Burger... )}
+//   <IconCash aria-label="tracker icon" />   // <-- เพิ่มแค่บรรทัดนี้ (ออปชัน)
+//   <Text /* ... >TRACKER-APP</Text>
+// </Group>*/
